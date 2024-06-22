@@ -1,0 +1,7 @@
+{
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "C_Cpp.default.includePath": [
+        "${workspaceRoot}",
+        "/home/yarik/Arduino/libraries"
+    ]
+}

@@ -2,7 +2,7 @@
 #include "screen.h"
 #include "sifw.h"
 
-PZEM004Tv30 pzem(Serial2, 16, 17, 0x10);
+PZEM004Tv30 pzem(Serial2, 16, 17, 0x11);
 
 void setup()
 {

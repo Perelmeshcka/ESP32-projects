@@ -2,11 +2,14 @@
 #include "screen.h"
 #include "sifw.h"
 
-PZEM004Tv30 pzem(Serial2, 16, 17, 0x11);
+HardwareSerial PZEM_Serial(2);
+
+PZEM004Tv30 pzem(PZEM_Serial, 16, 17);
 
 void setup()
 {
     srn::SETUP();
+    PZEM_Serial.begin(9600, SERIAL_8N1, 16, 17);
 }
 
 void loop() 

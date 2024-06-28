@@ -2,6 +2,6 @@
     "configuration": "JTAGAdapter=default,PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,LoopCore=1,EventsCore=1,DebugLevel=none,EraseFlash=none,ZigbeeMode=default",
     "board": "esp32:esp32:esp32",
     "programmer": "esptool",
-    "sketch": "EM/RTC-screen/RTC-screen.ino",
+    "sketch": "EM/__web-server/__web-server.ino",
     "port": "/dev/ttyUSB0"
 }
